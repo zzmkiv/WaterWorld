@@ -1,0 +1,124 @@
+body{
+	background:#eee;
+}
+h1{
+	text-align:center;
+}
+.container{
+	width:960px;
+	height:450px;
+	margin:60px auto;
+	position:relative;	
+}
+img{
+	padding:10px 10px 15px;
+    background:#fff;
+    border:1px solid #ddd;
+    position:absolute;
+    -webkit-transition: 1s; 
+    -moz-transition: 1s;    
+    transition: 1s;  
+    z-index: 1;
+}
+img:hover{
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	transform:rotate(0deg);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+	z-index:2;
+	box-shadow: 10px 10px 15px #ccc;
+}
+.pic1{
+    top:90px;
+    left:0;
+    -webkit-transform:rotate(20deg);
+	-moz-transform:rotate(20deg);
+	transform:rotate(20deg);
+}
+.pic2{
+	top:190px;
+	left:0px;
+	-webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+}
+.pic3{
+	top:290px;
+	left:0px;
+	-webkit-transform:rotate(400deg);
+	-moz-transform:rotate(400deg);
+	transform:rotate(400deg);
+}
+.pic4{
+	top:90px;
+	left:200px;
+	-webkit-transform:rotate(30deg);
+	-moz-transform:rotate(30deg);
+	transform:rotate(30deg);
+}
+.pic5{
+	top:90px;
+	left:500px;
+	-webkit-transform:rotate(-25deg);
+	-moz-transform:rotate(-25deg);
+	transform:rotate(-25deg);
+}
+.pic6{
+	top:90px;
+	left:800px;
+	-webkit-transform:rotate(70deg);
+	-moz-transform:rotate(70deg);
+	transform:rotate(70deg);
+}
+.pic7{
+	top:190px;
+	left:0px;
+	-webkit-transform:rotate(120deg);
+	-moz-transform:rotate(120deg);
+	transform:rotate(120deg);
+}
+.pic8{
+	top:190px;
+	left:200px;
+	-webkit-transform:rotate(280deg);
+	-moz-transform:rotate(280deg);
+	transform:rotate(280deg);
+}
+.pic9{
+	top:190px;
+	left:500px;
+	-webkit-transform:rotate(-125deg);
+	-moz-transform:rotate(-125deg);
+	transform:rotate(-125deg);
+}
+.pic10{
+	top:190px;
+	left:800px;
+	-webkit-transform:rotate(-225deg);
+	-moz-transform:rotate(-225deg);
+	transform:rotate(-225deg);
+}
+.pic11{
+	top:290px;
+	left:0px;
+	-webkit-transform:rotate(25deg);
+	-moz-transform:rotate(25deg);
+	transform:rotate(25deg);
+}
+.pic12{
+	top:290px;
+	left:200px;
+	-webkit-transform:rotate(25deg);
+	-moz-transform:rotate(25deg);
+	transform:rotate(25deg);
+}
+.pic13{
+	top:390px;
+	left:500px;
+	-webkit-transform:rotate(25deg);
+	-moz-transform:rotate(25deg);
+	transform:rotate(25deg);
+}
+
